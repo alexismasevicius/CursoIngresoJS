@@ -4,7 +4,17 @@ B.	Al ingresar una temperatura en Centígrados debemos mostrar la temperatura en
 */
 function FahrenheitCentigrados () 
 {
-	
+    var temperaturaFar;
+    var temperaturaCent;
+    
+    temperaturaFar=txtIdTemperatura.value;
+    temperaturaFar=parseInt(temperaturaFar);
+
+    temperaturaCent=(((temperaturaFar-32)*5)/9);
+    
+    alert(temperaturaFar+" grados Farenheit son "+temperaturaCent+" grados centígrados.");
+    //( °F − 32) × 5/9
+
 }
 
 function CentigradosFahrenheit () 
