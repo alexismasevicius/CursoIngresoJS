@@ -12,7 +12,7 @@ function sumar()
 	var resultado;
 
 	numeroUno=txtIdNumeroUno.value;
-	numeroUno=parseInt(numeroUno);
+	numeroUno=parseInt(numeroUno); //pide dato y parseInt lo devuelve a numero entero
 
 	numeroDos=txtIdNumeroDos.value;
 	numeroDos=parseInt(numeroDos);
